@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/font"
-        android:text="sua bomba favorita"
+        android:text="sua bala favorita"
         android:textAlignment="center"
         android:textSize="20sp" />
 
@@ -40,7 +40,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/durateston"/>
+                android:src="@drawable/hallsmentol"/>
 
         </androidx.cardview.widget.CardView>
 

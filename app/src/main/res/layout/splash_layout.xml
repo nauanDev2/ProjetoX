@@ -17,12 +17,13 @@
 
     <TextView
         android:fontFamily="@font/font"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="20sp"
-        android:text="Projeto X"
-        android:textSize="30dp"/>
+        android:textSize="30dp"
+        android:text="HABIB SUPLEMENTOS"/>
 
     <com.google.android.material.progressindicator.LinearProgressIndicator
         android:layout_width="200dp"
