@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/font"
-        android:text="SUPLEMENTOS"
+        android:text="Menu"
         android:textAlignment="center"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/font"
-        android:text="sua bala favorita"
+        android:text="supere seus limites"
         android:textAlignment="center"
         android:textSize="20sp"
         android:layout_marginTop="10dp"/>
@@ -40,6 +40,7 @@
             android:layout_marginRight="10dp">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/tbGrowth"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
@@ -60,6 +61,7 @@
             android:layout_marginLeft="10dp">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/tbIntegral"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_margin="10dp">
@@ -88,6 +90,7 @@
             android:layout_marginRight="10dp">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/tbMax"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
@@ -108,6 +111,7 @@
             android:layout_marginLeft="10dp">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/tbDarkLab"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_margin="10dp">
@@ -131,6 +135,7 @@
         android:layout_marginTop="80dp">
 
         <LinearLayout
+            android:id="@+id/tbSoldiers"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp">
@@ -156,6 +161,7 @@
             android:layout_marginLeft="10dp">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/tbBlackSkull"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_margin="10dp">
@@ -170,10 +176,6 @@
         </LinearLayout>
 
     </LinearLayout>
-
-
-
-
 
 
 </LinearLayout>
